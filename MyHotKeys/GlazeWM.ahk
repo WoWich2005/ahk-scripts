@@ -22,7 +22,7 @@
 #f:: RunGlazeWM("toggle-fullscreen")
 #m:: RunGlazeWM("toggle-minimized")
 
-#!p:: RunGlazeWM("wm-toggle-pause")
+#+s:: RunGlazeWM("wm-toggle-pause")
 #v::  RunGlazeWM("toggle-tiling-direction")
 #!e:: RunGlazeWM("wm-exit")
 #!r:: RunGlazeWM("wm-reload-config")
