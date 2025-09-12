@@ -4,17 +4,33 @@
 ; Terminal
     #Q::
     {
+        Run "C:/Portable/AutoHotKeys/MyHotKeys/scripts/RunWslSilent.vbs"
+    }
+
+    #+Q::
+    {
         Run "wt"
     }
 
-; Explorer
+; File managers
     #E::
+    {
+        Run "C:/Portable/AutoHotKeys/MyHotKeys/scripts/RunYaziSilent.vbs"
+    }
+
+    #+E::
     {
         Run "explorer.exe"
     }
 
-; Close window
+; Minimize window
     #C::
+    {
+        Send "#{Down}"
+    }
+
+; Close window
+    #+C::
     {
         Send "!{F4}"
     }
@@ -25,17 +41,9 @@
         Send "!{Space}"
     }
 
-; Browser
-    #B::
-    {
-        Run "C:\Program Files\LibreWolf\librewolf.exe"
-    }
-
 ; Lock
     ; LWin + L
 
-; Bluetooth
-    ; LWin + K
 
 ; Music
     #S::{

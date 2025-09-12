@@ -3,30 +3,30 @@
 
 #HotIf !WinActive("ahk_class ConsoleWindowClass")
 
-#Left::  RunGlazeWM("focus --direction left")
-#Right:: RunGlazeWM("focus --direction right")
-#Up::    RunGlazeWM("focus --direction up")
-#Down::  RunGlazeWM("focus --direction down")
+#u:: RunGlazeWM("focus --direction left")
+#p:: RunGlazeWM("focus --direction right")
+#o:: RunGlazeWM("focus --direction up")
+#i:: RunGlazeWM("focus --direction down")
 
-#+Left::  RunGlazeWM("move --direction left")
-#+Right:: RunGlazeWM("move --direction right")
-#+Up::    RunGlazeWM("move --direction up")
-#+Down::  RunGlazeWM("move --direction down")
+#+u:: RunGlazeWM("move --direction left")
+#+p:: RunGlazeWM("move --direction right")
+#+o:: RunGlazeWM("move --direction up")
+#+i:: RunGlazeWM("move --direction down")
 
-#u:: RunGlazeWM("resize --width -2%")
-#p:: RunGlazeWM("resize --width +2%")
-#o:: RunGlazeWM("resize --height +2%")
-#i:: RunGlazeWM("resize --height -2%")
+#!u:: RunGlazeWM("resize --width -2%")
+#!p:: RunGlazeWM("resize --width +2%")
+#!o:: RunGlazeWM("resize --height +2%")
+#!i:: RunGlazeWM("resize --height -2%")
 
 #t:: RunGlazeWM("toggle-floating --centered")
 #f:: RunGlazeWM("toggle-fullscreen")
 #m:: RunGlazeWM("toggle-minimized")
 
-#+p:: RunGlazeWM("wm-toggle-pause")
+#!p:: RunGlazeWM("wm-toggle-pause")
 #v::  RunGlazeWM("toggle-tiling-direction")
-#+e:: RunGlazeWM("wm-exit")
-#+r:: RunGlazeWM("wm-reload-config")
-#+w:: RunGlazeWM("wm-redraw")
+#!e:: RunGlazeWM("wm-exit")
+#!r:: RunGlazeWM("wm-reload-config")
+#!w:: RunGlazeWM("wm-redraw")
 
 #1:: RunGlazeWM("focus --workspace 1")
 #+1::{

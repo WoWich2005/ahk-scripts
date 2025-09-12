@@ -1,0 +1,1 @@
+wezterm ssh -oIdentityFile=C:\Portable\AutoHotKeys\MyHotKeys\scripts\wsl vladimir@127.0.0.1
