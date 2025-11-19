@@ -57,6 +57,12 @@
     #D::{
         Send "{Media_Next}"
     }
+    
+; Bluetooth Headphones Toogle
+    #H::
+    {
+        Run "C:/Portable/AutoHotKeys/MyHotKeys/scripts/toggleBlHeadphonesSilent.vbs"
+    }
 
 ; Audio
     #F1::{
