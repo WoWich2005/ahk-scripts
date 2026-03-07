@@ -4,5 +4,5 @@
 ; Browser
     #B::
     {
-        Run "C:\Program Files\LibreWolf\librewolf.exe"
+        Run "C:\Program Files\Zen Browser\zen.exe"
     }
