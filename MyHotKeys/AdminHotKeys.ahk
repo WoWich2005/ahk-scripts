@@ -129,3 +129,9 @@
         else
             Run "SystemSettingsAdminFlows.exe EnableTouchPad 1"
     }
+
+; Replace ₽ with ctrl + alt + 8 for zen workspace
+    $^!8::{
+        Send "^!{Numpad8}"
+        Return
+    }
