@@ -82,6 +82,12 @@
     RunGlazeWM("focus --workspace 9")
 }
 
+#^k:: RunGlazeWM("focus --workspace k")
+#^o:: RunGlazeWM("focus --workspace o")
+#^b:: RunGlazeWM("focus --workspace b")
+#^v:: RunGlazeWM("focus --workspace v")
+#^m:: RunGlazeWM("focus --workspace m")
+
 #HotIf
 
 RunGlazeWM(command) {
